@@ -12,7 +12,7 @@ const AvailableMeals = () => {
   useEffect(() => {
     const fetchMeals = async () => {
       const response = await fetch(
-        "https://food-order-app-d79a0-default-rtdb.firebaseio.com/meals"
+        "https://food-order-app-d79a0-default-rtdb.firebaseio.com/meals.json"
       );
 
       if (!response.ok) {
